@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/movie-app/',   // <-- IMPORTANT for GitHub Pages
+  base: '/movie_app/',   // <-- IMPORTANT for GitHub Pages
   plugins: [react(), tailwindcss()],
 })
